@@ -13,7 +13,7 @@ open class KCSelectionDialog: UIView {
     
     open var titleHeight: CGFloat = 50
     open var buttonHeight: CGFloat = 50
-    open var cornerRadius: CGFloat = 7
+    open var cornerRadius1: CGFloat = 7
     open var itemPadding: CGFloat = 10
     open var minHeight: CGFloat = 300
     
@@ -125,9 +125,9 @@ open class KCSelectionDialog: UIView {
             height: dialogSize.height
             ))
         
-        view.layer.cornerRadius = cornerRadius
+        view.layer.cornerRadius = cornerRadius1
         view.backgroundColor = UIColor.white
-        view.layer.shadowRadius = cornerRadius
+        view.layer.shadowRadius = cornerRadius1
         view.layer.shadowOpacity = 0.2
         view.layer.shadowColor = UIColor.black.cgColor
         
